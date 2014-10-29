@@ -1,0 +1,49 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+
+ <style name="searchTextHiglight">
+        <item name="android:textColor">@color/highlight</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="MyTheme.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+        <item name="android:background">@color/main_normal</item>
+    </style>
+
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Medium.Inverse">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MyCustomTheme" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/MyTheme.ActionBarStyle</item>
+
+        <!-- <item name="android:homeAsUpIndicator">@drawable/ic_back</item> -->
+    </style>
+
+    <style name="MyCustomBackTheme" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/MyTheme.ActionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back</item>
+        <item name="android:displayOptions">showHome|homeAsUp|showTitle</item>
+        <item name="displayOptions">showHome|homeAsUp|showTitle</item>
+        <item name="android:icon">@android:color/transparent</item>
+
+    </style>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

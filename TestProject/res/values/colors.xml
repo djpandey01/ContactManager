@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_normal">#ff52914c</color>
+    <color name="main_light">#ff9ec54d</color>
+    <color name="main_dark">#ff52914c</color>
+    <color name="main_gray">#ff7f7f7f</color>
+    <color name="highlight">#ff6ea6f3</color>
+    <color name="gray_transparent">#aa4b4b4b</color>
+
+</resources>
